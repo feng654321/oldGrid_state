@@ -1,0 +1,28 @@
+#ifndef _LOAD_CTRL_POWER_H_
+
+#define _LOAD_CTRL_POWER_H_
+
+#define 	CONSWITCHPERTIMENUM				16		//时段数
+#define	CONSWITCHCURVENUM				8		//8条功率定值曲线
+#define	CONSWITCHCURVE_RESERVE0			0	//0备用1	高优先级
+#define	CONSWITCHCURVE_POWLOWER		1	//1当前功率下浮控
+#define	CONSWITCHCURVE_SALESTOP			2	//2营业报停控制
+#define	CONSWITCHCURVE_RESTCTRL			3	//3厂休控
+#define	CONSWITCHCURVE_TIMEPER1			4	//4时段控制1
+#define	CONSWITCHCURVE_TIMEPER2			5	//5时段控制2
+#define	CONSWITCHCURVE_TIMEPER3			6	//6时段控制3
+#define	CONSWITCHCURVE_RESERVE7			7	//7备用2	低优先级
+
+#define 	CON_POWER_BIGVAL					999999
+#define 	CON_MIN_FLOAT_VAL			0.1
+
+
+#define	CON_CYCLETYPE_DAY				0x11
+#define	CON_CYCLETYPE_WEEK				0x22
+#define	CON_CYCLETYPE_MONTH				0x33
+
+#define 	CONCYCLEDAYNUM					31
+
+
+#endif
+
